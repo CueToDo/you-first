@@ -1,0 +1,28 @@
+<div class="outer">
+
+  <h1>Countdown to General Election 2024</h1>
+
+  <p>Polls close Thu {{ pollsClose | date:'dd MMM yyyy' }} at {{ pollsClose | date:'HH:mm' }} BST</p>
+
+  <div class="wrapper">
+    <div class="countDown">
+      <div *ngIf="days>0">
+        <div>{{ days }}</div>
+        <div class="smalltext">Days</div>
+      </div>
+      <div>
+        <div>{{ hours }}</div>
+        <div class="smalltext">Hours</div>
+      </div>
+      <div>
+        <div>{{ minutes }}</div>
+        <div class="smalltext">Minutes</div>
+      </div>
+      <div>
+        <div>{{ seconds }}</div>
+        <div class="smalltext">Seconds</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- https://codepen.io/SitePoint/pen/NWxKgxN -->

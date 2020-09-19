@@ -1,0 +1,31 @@
+<div class="wrapper">
+
+  <nav class="primary yfNav">
+
+    <div class="content text-center">
+
+      <a routerLink="/you-first" [class.active]="url==='/you-first'">you-first</a>
+
+      <a routerLink="/CARD" [class.active]="url==='' || url==='/CARD'">CARD</a>
+
+      <a routerLink="/more" [class.active]="url==='/more'">more</a>
+
+    </div>
+
+  </nav>
+
+  <div class="scroller">
+
+    <router-outlet></router-outlet>
+
+  </div>
+
+  <div class="quaternary footer">
+    <div class="content">
+      We need reform now. We need a representative democracy fit for the future, our future.
+    </div>
+  </div>
+
+
+
+</div>

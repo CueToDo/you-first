@@ -1,0 +1,27 @@
+.h1pad {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.content img {
+    width: 100%;
+}
+
+.whitespace {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.bi {
+    font-weight: bold;
+    font-style: italic;
+}
+
+img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img.mw300{
+    max-width:300px;
+}
