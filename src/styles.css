@@ -125,7 +125,7 @@ button {
 
 hr {
     margin-top: 40px;
-    height:3px;
+    height: 3px;
     background: gray;
 }
 
@@ -137,6 +137,11 @@ hr {
     margin-left: auto;
 }
 
-.highlight{
+.highlight {
     background-color: yellow;
+}
+
+img.social {
+    height: 32px;
+    vertical-align: middle;
 }
