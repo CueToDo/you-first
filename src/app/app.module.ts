@@ -12,12 +12,17 @@ import { MoreComponent } from './more/more.component';
 import { TakeActionComponent } from './take-action/take-action.component';
 import { CountdownComponent } from './countdown/countdown.component';
 import { CampaignersComponent } from './campaigners/campaigners.component';
+import { DearPmComponent } from './dear-pm/dear-pm.component';
+import { DeepDiveComponent } from './deep-dive/deep-dive.component';
+import { deepEqual } from 'assert';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'CARD', component: HomeComponent },
   { path: 'you-first', component: YouFirstComponent },
-  { path: 'more', component: MoreComponent }
+  { path: 'more', component: MoreComponent },
+  { path: 'dear-pm', component: DearPmComponent },
+  { path: 'deep-dive', component: DeepDiveComponent }
 ];
 
 @NgModule({
@@ -28,7 +33,9 @@ const appRoutes: Routes = [
     MoreComponent,
     TakeActionComponent,
     CountdownComponent,
-    CampaignersComponent
+    CampaignersComponent,
+    DearPmComponent,
+    DeepDiveComponent
   ],
   imports: [
     BrowserModule,

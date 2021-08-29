@@ -1,0 +1,17 @@
+.page {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: #fdf5e6;
+}
+
+.container-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.declaration {
+    padding: 50px;
+    font-style: italic;
+    font-weight:bold;
+}
